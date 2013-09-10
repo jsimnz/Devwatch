@@ -1,7 +1,7 @@
 ![logo](https://raw.github.com/jsimnz/Devwatch/master/Documentation/devwatch.png)
-=========
+
 ### A simple command line static web server utilizing websockets for quick development of web apps
----
+=========
 ## Overview
 Devwatch is a (very) simple static webserver. It uses the current working directory from which it was called to server its documents. However despite these common features devwatch has one special feature. It uses [WebSockets](http://www.w3.org/TR/2009/WD-websockets-20091222/)! 
 
