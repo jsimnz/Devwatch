@@ -5,13 +5,19 @@
 ## Overview
 Devwatch is a (very) simple static webserver. It uses the current working directory from which it was called to server its documents. However despite these common features devwatch has one special feature. It uses [WebSockets](http://www.w3.org/TR/2009/WD-websockets-20091222/)! 
 
-Devwatch watches the directory it serves from (and direct child folders) to alert all connected websocket clients that the directory it servers from has recieved file changes, and to refresh their browser. It uses [fsnotify](https://github.com/howeyc/fsnotify) to watch the filesystem and alert on events.
+Devwatch watches the directory it serves from (and direct child folders) to alert all connected websocket clients that the directory it serves from has recieved file changes, and to refresh their browser. It uses [fsnotify](https://github.com/howeyc/fsnotify) to watch the filesystem and alert on events.
 
 #### Features
   - Easy to use
   - Content-type detection
   - Watches filesystem for changes
   - Alert browsers with websockets
+
+#### Cross Browser
+   - Chrome
+   - Firefox
+   - IE 9+
+  - Cross Device (Mobile/Desktop)
 
 #### Cross-Platform
   - Linux
