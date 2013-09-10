@@ -52,9 +52,10 @@ Devwatch comes with the file `js/devwatch.js` which should be used on the client
 
 #### Usage
 ```
-<script type='test/javascript' src='/js/path/devwatch.js'></script> //import script in head
-
+<script type='text/javascript' src='/js/path/devwatch.js'></script> //import script in head
 ```
+
+Check the `example` folder for further information
 
 ##TODO
  * Use `--www` as an alternative for specifying serving directory
