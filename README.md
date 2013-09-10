@@ -29,8 +29,8 @@ Devwatch watches the directory it serves from (and direct child folders) to aler
 You need [go](http://golang.org) installed and `GOBIN` in your `PATH`. Once that is done, run the
 command:
 ```shell
-$ go get github.com/tsenart/vegeta
-$ go install github.com/tsenart/vegeta
+$ go get github.com/jsimnz/Devwatch
+$ go install github.com/jsimnz/Devwatch
 ```
 
 ## Usage
